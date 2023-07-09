@@ -1,0 +1,55 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  /* background:linear-gradient(to bottom right, lightpink, rgb(242, 171, 183)) */
+  background-image: url("../assets/building.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+
+#candidatesList {
+  margin-top: 20px;
+   border-radius: 10px;
+  box-shadow: 0 34px 38px 0 rgba(7, 15, 232, 0.2),
+    0 36px 40px 0 rgba(47, 120, 192, 0.19);
+  background-color: rgb(242, 201, 207);
+}
+
+#candidatesList li{
+    margin: 10px 0;
+    list-style: none;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.itemHeading{
+    text-align: center;
+}

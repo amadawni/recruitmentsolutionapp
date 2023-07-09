@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Candidate Search</title>
+    <link rel="stylesheet" type="text/css" href="searchCandidates.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Candidate Search</h1>
+
+      <div class="search-section">
+        <input type="text" id="locationInput" placeholder="Enter location" />
+        <input type="text" id="roleInput" placeholder="Enter job role" />
+        <button onclick="searchCandidates()">Search</button>
+      </div>
+
+      <div id="candidatesList">
+       <h2 class="itemHeading">Candidates Search List Below</h2>
+      </div>
+    </div>
+
+    <script src="searchCandidates.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  background-image: url("../assets/building.jpg");
+  background-size: cover;
+  background-position: center;
+  /* Additional background properties if needed */
+}
+.container span {
+  text-align: center;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  margin: 44px 0;
+}
+.personalDetails {
+  /* margin-top: 50px; */
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 34px 38px 0 rgba(7, 15, 232, 0.2),
+    0 36px 40px 0 rgba(47, 120, 192, 0.19);
+  background-color: rgb(242, 201, 207);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personalDetails div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.personalDetails div input {
+  border-color: none;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.personalDetails button {
+  margin: 20px 0;
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+  background-color: rgb(223, 124, 217);
+}
+.personalDetails button a {
+  text-decoration: none;
+}
